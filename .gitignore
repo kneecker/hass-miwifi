@@ -134,3 +134,4 @@ dmypy.json
 bin
 share
 include
+/homeassistant/

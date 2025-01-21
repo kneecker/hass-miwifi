@@ -13,7 +13,8 @@ import pytest
 from homeassistant.components.device_tracker import (
     ENTITY_ID_FORMAT as DEVICE_TRACKER_ENTITY_ID_FORMAT,
 )
-from homeassistant.components.device_tracker import SOURCE_TYPE_ROUTER
+from homeassistant.components.device_tracker import SourceType
+SOURCE_TYPE_ROUTER = SourceType.ROUTER
 from homeassistant.const import (
     CONF_IP_ADDRESS,
     STATE_HOME,
