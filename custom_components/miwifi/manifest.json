@@ -2,7 +2,8 @@
   "domain": "miwifi",
   "name": "MiWiFi",
   "codeowners": [
-    "@dmamontov"
+    "@dmamontov",
+    "@kneecker"
   ],
   "config_flow": true,
   "dependencies": [
@@ -118,5 +119,5 @@
       "deviceType": "urn:schemas-upnp-org:device:InternetGatewayDevice:1"
     }
   ],
-  "version": "3.0.0"
+  "version": "3.0.1"
 }
