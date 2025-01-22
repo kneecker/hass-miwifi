@@ -9,7 +9,9 @@ from contextlib import closing
 from functools import cached_property
 from typing import Any, Final
 
-from homeassistant.components.device_tracker import ENTITY_ID_FORMAT, SOURCE_TYPE_ROUTER
+from homeassistant.components.device_tracker import ENTITY_ID_FORMAT
+from homeassistant.components.device_tracker import SourceType
+SOURCE_TYPE_ROUTER = SourceType.ROUTER
 from homeassistant.components.device_tracker.config_entry import ScannerEntity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant, callback
