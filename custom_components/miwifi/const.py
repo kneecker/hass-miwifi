@@ -10,7 +10,7 @@ from homeassistant.const import Platform
 DOMAIN: Final = "miwifi"
 NAME: Final = "MiWifi"
 ATTRIBUTION: Final = "Data provided by MiWifi"
-REPOSITORY: Final = f"dmamontov/hass-{DOMAIN}"
+REPOSITORY: Final = f"kneecker/hass-{DOMAIN}"
 
 PLATFORMS: Final = [
     Platform.BINARY_SENSOR,
