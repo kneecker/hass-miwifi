@@ -3,6 +3,8 @@
 [![CodeQL](https://img.shields.io/badge/CODEQL-Passing-30C854.svg?style=for-the-badge)](https://github.com/dmamontov/hass-miwifi/actions?query=CodeQL)
 [![Telegram](https://img.shields.io/badge/Telegram-channel-34ABDF.svg?style=for-the-badge)](https://t.me/hass_mamontov_tech)
 
+## UPDATE 22.01.2025 (3.0.1): Imports fixed FOR HomeAssistant 2025.1.2
+
 The component allows you to monitor devices and manage routers based on [MiWiFi](http://miwifi.com/) from [Home Assistant](https://www.home-assistant.io/).
 
 ❗ Supports routers with original or original patched MiWifi firmware
